@@ -1,9 +1,10 @@
-import './App.scss'
-import LoginPage from './pages/login';
+import './App.css'
 
 function App() {
   return (
-    <LoginPage />
+    <>
+      <h1 className='text-gray-200'>Hello</h1>
+    </>
   );
 }
 
