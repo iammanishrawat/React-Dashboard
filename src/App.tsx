@@ -1,9 +1,9 @@
 import './App.scss'
-import SidebarComponent from './components/sidebar';
+import LoginPage from './pages/login';
 
 function App() {
   return (
-    <SidebarComponent />
+    <LoginPage />
   );
 }
 
