@@ -49,7 +49,7 @@ const LoginComponent = () => {
               </div>
             </div>
             <div className="form-group">
-              <button className='auth-button w-full font-medium rounded-sm p-2.5 sm:text-sm' type='button'>Continue with Email</button>
+              <button className='auth-button w-full font-medium rounded-sm p-2.5 sm:text-sm text-gray-600' type='button'>Continue with Email</button>
             </div>
           </form>
           <div className="separator-area mt-3 text-center">
