@@ -1,10 +1,5 @@
-import './App.css'
-import LoginComponent from './pages/login';
-
-function App() {
+export default function App() {
   return (
-      <LoginComponent />
+    <></>
   );
 }
-
-export default App;
