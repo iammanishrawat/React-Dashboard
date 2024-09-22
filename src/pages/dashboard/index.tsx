@@ -10,9 +10,15 @@ import {
   BarChart3,
   LayoutDashboard,
   Settings,
+  LogOut
 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const DashboardComponent = () => {
+  const handleLoginClick = () => {
+    // useEffect(() => {
+    // }, [])
+  }
   return (
     <main className="App flex">
       <SidebarComponent>
@@ -24,6 +30,7 @@ const DashboardComponent = () => {
         <SidebarItem icon={<Receipt size={20} />} text="Billings" />
         <SidebarItem icon={<Settings size={20} />} text="Settings" />
         <SidebarItem icon={<LifeBuoy size={20} />} text="Help" />
+        <Link to="/logout" onClick={handleLoginClick}><SidebarItem icon={<LogOut  size={20} />} text="Logout" /></Link>
       </SidebarComponent>
       <TopbarComponent />
     </main>

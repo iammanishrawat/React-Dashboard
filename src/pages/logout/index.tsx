@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './style.scss';
 // import { useGSAP } from '@gsap/react';
 
-const LoginComponent = () => {
+const LogoutComponent = () => {
   const handleLoginClick = () => {
     // useEffect(() => {
     // }, [])
@@ -58,8 +58,8 @@ const LoginComponent = () => {
               </div>
             </div>
             <div className="form-group">
-                <Link to="/home" onClick={handleLoginClick}>
-                  <button className='auth-button w-full font-medium rounded-sm p-2.5 sm:text-sm text-gray-600' type='button'>Login</button>
+                <Link to="/home">
+                  <button onClick={handleLoginClick} className='auth-button w-full font-medium rounded-sm p-2.5 sm:text-sm text-gray-600' type='button'>Login</button>
                 </Link>
             </div>
           </form>
@@ -91,4 +91,4 @@ const LoginComponent = () => {
   );
 };
 
-export default LoginComponent;
+export default LogoutComponent;
