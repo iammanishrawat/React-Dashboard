@@ -1,5 +1,6 @@
 // import SidebarComponent, { SidebarItem } from './components/sidebar';
 import SidebarComponent, { SidebarItem } from '@/components/sidebar';
+import TopbarComponent from '@/components/topbar';
 import {
   LifeBuoy,
   Receipt,
@@ -24,6 +25,7 @@ const DashboardComponent = () => {
         <SidebarItem icon={<Settings size={20} />} text="Settings" />
         <SidebarItem icon={<LifeBuoy size={20} />} text="Help" />
       </SidebarComponent>
+      <TopbarComponent />
     </main>
   )
 }
